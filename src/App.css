@@ -6,6 +6,19 @@
   height: 40vmin;
   pointer-events: none;
 }
+.weatherData{
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: space-between;
+  align-items: center;
+  padding: 20;
+  padding-left: 30;
+  padding-right: 30;
+  border-bottom: 4px solid #4840d30d;
+  
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
